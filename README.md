@@ -9,7 +9,7 @@
 * **Thread-Safe Architecture:** Utilizes a low-overhead, synchronized double-buffering scheme at the end of execution rounds to completely eliminate inter-core race conditions and resource contention.
 
 ## 🛠️ System Architecture & Data Flow
-+-------------------------------------------------------------+
+  +-------------------------------------------------------------+
   |                          ESP32 CORE 0                       |
   |   [Camera Sweep Task] ---> [Mamdani Inference Engine]       |
   +------------------------------------+------------------------+
@@ -26,10 +26,10 @@
 The internal logic maps real-time vehicle density queues against downstream projected traffic flow to evaluate dynamic signal weight distributions:
 
 | Current Intersection Volume | Upstream Projected Inflow | Resolved Signal Phase Weight |
-| :---: | :---: | :---: |
-| Equal ($i = j$) | Equal ($i = j$) | **Medium Phase** |
-| Low ($i < j$) | High ($i < j$) | **High Phase** |
-| High ($i > j$) | Low ($i > j$) | **Low Phase** |
+| :-------------------------: | :-----------------------: | :--------------------------: |
+|       Equal ($i = j$)       |      Equal ($i = j$)      |      **Medium Phase**        |
+|       Low ($i < j$)         |      High ($i < j$)       |      **High Phase**          |
+|       High ($i > j$)        |      Low ($i > j$)        |      **Low Phase**           |
 
 ## 📦 Repository Structure
 
