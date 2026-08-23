@@ -4,8 +4,11 @@
 ## 🚀 Key Features
 
 **Asymmetric Multiprocessing (AMP):** Utilizes FreeRTOS to pin the deterministic traffic signaling sequencer to Core 1, while offloading camera servo mechanics and fuzzy tracking processing to Core 0.
+
 **Custom Mamdani Fuzzy Inference System:** A multi-variable fuzzy engine engineered completely from scratch in C++, featuring triangular membership functions, min-composition mapping rules, and centroid defuzzification to dynamically calculate optimal green phase clearance intervals.
+
 **2-DOF Serial Manipulator Gimbal:** Implements a discrete coordinate transformation matrix using boolean state arrays to achieve complete 270-degree quadrant visual tracking using standard 180-degree positional actuators.
+
 **Thread-Safe Architecture:** Utilizes a low-overhead, synchronized double-buffering scheme at the end of execution rounds to completely eliminate inter-core race conditions and resource contention.
 
 ## 🛠️ System Architecture & Data Flow
