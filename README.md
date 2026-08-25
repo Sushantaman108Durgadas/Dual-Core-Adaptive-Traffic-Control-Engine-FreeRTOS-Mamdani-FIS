@@ -1,5 +1,70 @@
-# Dual-Core-Adaptive-Traffic-Control-Engine-FreeRTOS-Mamdani-FIS-
-"An industrial-grade, multi-threaded traffic automation engine for the ESP32 that uses FreeRTOS to isolate safety-critical signaling from a custom, real-time Mamdani Fuzzy Inference System and a 2-DOF camera tracking gimbal."
+<div align="center">
+
+# 🚦 Dual-Core-Adaptive-Traffic-Control-Engine-FreeRTOS-Mamdani-FIS
+
+
+
+## Simulation
+
+- Wokwi
+
+---
+
+# 📂 Repository Structure
+
+```
+Smart-Dustbin-Project-MPR1B
+│
+├── Version-1_MPR_Basic
+├── Version-2_IoT
+├── Version-3_Wokwi_OOP
+├── Version-4_Intelligent_Waste_Analysis
+│
+├── docs
+│   ├── Images
+│   ├── Project_Report_MPR.pdf
+│   └── Presentation.pdf
+│
+├── LICENSE
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+└── README.md
+```
+
+---
+
+
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+If you'd like to improve the project,
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Push the branch
+5. Open a Pull Request
+
+---
+
+# 📜 License
+
+This project is licensed under the **MIT License**.
+
+See the **LICENSE** file for details.
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project interesting, consider giving it a star!
+
+*"Engineering is rarely about building the perfect system on the first try. It's about continuously improving each iteration."*
+
+</div>
+
 
 ## 🚀 Key Features
 
@@ -34,3 +99,33 @@ The internal logic maps real-time vehicle density queues against downstream proj
 
 * `sketch.ino`: Main firmware core managing task structures, hardware maps, and intersection sequencing.
 * `diagram.json`: Digital schematic blueprint for Wokwi simulation testing environments.
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+If you'd like to improve the project,
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Push the branch
+5. Open a Pull Request
+
+---
+
+# 📜 License
+
+This project is licensed under the **MIT License**.
+
+See the **LICENSE** file for details.
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project interesting, consider giving it a star!
+
+*"Engineering is rarely about building the perfect system on the first try. It's about continuously improving each iteration."*
+
+</div>
