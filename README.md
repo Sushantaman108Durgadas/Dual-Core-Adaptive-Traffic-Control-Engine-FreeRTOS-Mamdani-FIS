@@ -2,7 +2,7 @@
 
 # 🚦 Dual-Core-Adaptive-Traffic-Control-Engine-FreeRTOS-Mamdani-FIS
 
-
+</div>
 
 ## Simulation
 
