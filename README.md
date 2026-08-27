@@ -35,17 +35,6 @@ Smart-Dustbin-Project-MPR1B
 
 
 
-
-
-<div align="center">
-
-### ⭐ If you found this project interesting, consider giving it a star!
-
-*"Engineering is rarely about building the perfect system on the first try. It's about continuously improving each iteration."*
-
-</div>
-
-
 ## 🚀 Key Features
 
 **Asymmetric Multiprocessing (AMP):** Utilizes FreeRTOS to pin the deterministic traffic signaling sequencer to Core 1, while offloading camera servo mechanics and fuzzy tracking processing to Core 0.
