@@ -2,11 +2,12 @@
 
 # 🚦 Dual-Core-Adaptive-Traffic-Control-Engine-FreeRTOS-Mamdani-FIS
 
+[![Stars](https://img.shields.io/github/stars/Sushantaman108Durgadas/Dual-Core-Adaptive-Traffic-Control-Engine-FreeRTOS-Mamdani-FIS?style=for-the-badge)](https://github.com/Sushantaman108Durgadas/Dual-Core-Adaptive-Traffic-Control-Engine-FreeRTOS-Mamdani-FIS/stargazers)
+[![Forks](https://img.shields.io/github/forks/Sushantaman108Durgadas/Dual-Core-Adaptive-Traffic-Control-Engine-FreeRTOS-Mamdani-FIS?style=for-the-badge)](https://github.com/Sushantaman108Durgadas/Dual-Core-Adaptive-Traffic-Control-Engine-FreeRTOS-Mamdani-FIS/network)
+[![Issues](https://img.shields.io/github/issues/Sushantaman108Durgadas/Dual-Core-Adaptive-Traffic-Control-Engine-FreeRTOS-Mamdani-FIS?style=for-the-badge)](https://github.com/Sushantaman108Durgadas/Dual-Core-Adaptive-Traffic-Control-Engine-FreeRTOS-Mamdani-FIS/issues)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+
 </div>
-
-## Simulation
-
-- Wokwi
 
 ---
 
@@ -68,6 +69,12 @@ The internal logic maps real-time vehicle density queues against downstream proj
 
 * `sketch.ino`: Main firmware core managing task structures, hardware maps, and intersection sequencing.
 * `diagram.json`: Digital schematic blueprint for Wokwi simulation testing environments.
+
+## Simulation
+
+- Wokwi
+
+---
 
 # 🤝 Contributing
 
